@@ -1,0 +1,496 @@
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.3;
+    font-size: 15px;
+    .hide-for-mobile{
+        @include breakpoint-down(small){
+            display: none;
+        }
+    }
+    .hide-for-desktop{
+        @include breakpoint-up(large){
+            display: none;
+        }
+    }
+}
+
+.flex{
+    display: flex;
+    &-jc-c{
+        justify-content: center;
+    }
+    &-ai-c{
+        align-items: center;
+    }
+    &-jc-sb{
+        justify-content: space-between;
+    }
+}
+.container{
+    margin-right: 90px;
+    .global{
+        width: 900px;
+        height: 400px;
+        margin-top: 70px;
+        .global1{
+            display: flex;
+            width: 1154px;
+            height: 272px;
+            margin-bottom: 5px;
+            .bloc1{
+                h1{
+                    font-family: League Spartan, sans-serif;
+                    font-size: 50px;
+                    font-weight: $weight-lg;
+                    line-height: 40px;
+                    color: $Very-Dark-Magenta;
+                }
+                width: 450px;
+                height: 200px;
+                p{
+                    font-family: league Spartan, sans-serif;
+                    opacity: 0.5;
+                    font-size: 16px;
+                    color: $Very-Dark-Magenta;
+                    font-weight: $weight-lg;
+                }
+            }
+        }   .bloc2{
+            margin-top: 50px;
+            .bp1{
+                width: 370px;
+                height: 50px;
+                background: $Light-Grayish-Magenta;
+                border-radius: 5px;
+                align-items: 10px;
+                margin-bottom: 15px;
+                img:first-child{
+                    margin-left: 25px;
+                    justify-content: center;
+                }
+                p{
+                    margin-left: 12px;
+                    color: $Very-Dark-Magenta;
+                    font-weight: $weight-lg;
+                    font-family: league Spartan, sans-serif;
+                }
+            }
+            .bp2{
+                width: 370px;
+                height: 50px;
+                background: $Light-Grayish-Magenta;
+                border-radius: 5px;
+                align-items: 10px;
+                margin-bottom: 15px;
+                margin-left: 40px;
+                img:first-child{
+                    margin-left: 25px;
+                    justify-content: center;
+                }
+                p{
+                    margin-left: 12px;
+                    color: $Very-Dark-Magenta;
+                    font-weight: $weight-lg;
+                    font-family: league Spartan, sans-serif;
+                }
+            }
+            .bp3{
+                width: 370px;
+                height: 50px;
+                background: $Light-Grayish-Magenta;
+                border-radius: 5px;
+                align-items: 10px;
+                margin-left: 80px;
+                img:first-child{
+                    margin-left: 25px;
+                    justify-content: center;
+                }
+                p{
+                    margin-left: 12px;
+                    color: $Very-Dark-Magenta;
+                    font-weight: $weight-lg;
+                    font-family: league Spartan, sans-serif;
+                }
+            }
+        }
+        .global2{
+            width: 900px;
+            height: 400px;
+            .bloc3{
+                gap: 25px;
+                .box1{
+                    padding: 25px;
+                    width: 300px;
+                    height: 180px;
+                    background: $Very-Dark-Magenta;
+                    border: 1px solid $Very-Dark-Magenta;
+                    border-radius: 5px;
+                    p{
+                        font-weight: $weight-md;
+                        margin-top: 20px;
+                        font-size: 13px;
+                        color: $Light-Grayish-Magenta;
+                        font-family: league Spartan, sans-serif;
+                    }
+                    .title{
+                        display: flex;
+                        margin: 0;
+                        padding: 0;
+                        font-family: league Spartan, sans-serif;
+                        img{
+                            border-radius: 50%;
+                        }
+                        .ecri{
+                            margin-left: 20px;
+                            font-size: 13px;
+                            width: 90px;
+                            height: 15px;
+                            h4{
+                                margin-top: -10px;
+                                color: $White;
+                            }
+                            p{
+                                margin-top: -15px;
+                                color: $Soft-Pink;
+                                font-size: 12px;
+                                font-weight: $weight-md;
+                            }
+                        }
+                    }
+                }
+                .box2{
+                    margin-top: 15px;
+                    padding: 25px;
+                    width: 300px;
+                    height: 180px;
+                    background: $Very-Dark-Magenta;
+                    border: 1px solid $Very-Dark-Magenta;
+                    border-radius: 5px;
+                    p{
+                        font-weight: $weight-md;
+                        font-size: 13.5px;
+                        margin-top: 20px;
+                        color: $Light-Grayish-Magenta;
+                        font-family: league Spartan, sans-serif;
+                    }
+                    .title2{
+                        display: flex;
+                        margin: 0;
+                        padding: 0;
+                        font-family: league Spartan, sans-serif;
+                        img{
+                            border-radius: 50%;
+                        }
+                        .ecri2{
+                            margin-left: 20px;
+                            font-size: 13px;
+                            width: 90px;
+                            height: 15px;
+                            h4{
+                                margin-top: -10px;
+                                color: $White;
+                            }
+                            p{
+                                margin-top: -18px;
+                                color: $Soft-Pink;
+                                font-size: 12px;
+                                font-weight: $weight-md;
+                            }
+                        }
+                    }
+                }
+                .box3{
+                    margin-top: 30px;
+                    padding: 25px;
+                    width: 300px;
+                    height: 180px;
+                    background: $Very-Dark-Magenta;
+                    border: 1px solid $Very-Dark-Magenta;
+                    border-radius: 5px;
+                    p{
+                        font-weight: $weight-md;
+                        font-size: 13px;
+                        margin-top: 20px;
+                        color: $Light-Grayish-Magenta;
+                        font-family: league Spartan, sans-serif;
+                    }
+                    .title3{
+                        display: flex;
+                        margin: 0;
+                        padding: 0;
+                        font-family: league Spartan, sans-serif;
+                        img{
+                            border-radius: 50%;
+                        }
+                        .ecri3{
+                            margin-left: 20px;
+                            font-size: 13px;
+                            width: 90px;
+                            height: 15px;
+                            h4{
+                                margin-top: -10px;
+                                color: $White;
+                            }
+                            p{
+                                margin-top: -18px;
+                                color: $Soft-Pink;
+                                font-size: 12px;
+                                font-weight: $weight-md;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//mobile-style
+.container-mb{
+    margin-right: 90px;
+    justify-content: center;
+    display: FLEX;
+    .global-mb{
+        // justify-content: center;
+        // align-items: center;
+        display: grid;
+        width: 380px;
+        margin-left: 90px;
+        // height: 400px;
+        margin-top: 70px;
+        .global1-mb{
+            width: 350px;
+            // height: 272px;
+            // margin-bottom: 45px;
+            .bloc1-mb{
+                h1{
+                    font-family: League Spartan, sans-serif;
+                    font-size: 42px;
+                    margin: 0;
+                    margin-left: 20px;
+                    font-weight: $weight-lg;
+                    line-height: 40px;
+                    color: $Very-Dark-Magenta;
+                }
+                width: 350px;
+                height: 200px;
+                p{
+                    font-family: league Spartan, sans-serif;
+                    opacity: 0.5;
+                    font-size: 17.5+ px;
+                    color: $Very-Dark-Magenta;
+                    font-weight: $weight-lg;
+                }
+            }
+        }   .bloc2-mb{
+            margin-top: 50px;
+            .bp1-mb{
+                width: 350px;
+                height: 80px;
+                // margin-left: 30px;
+                background: $Light-Grayish-Magenta;
+                border-radius: 5px;
+                align-items: 10px;
+                margin-bottom: 15px;
+                padding-left: 80px;
+                img:first-child{
+                    margin-left: 30px;
+                    margin-top: 10px;
+                }
+                p{
+                    margin-left: 5px;
+                    color: $Very-Dark-Magenta;
+                    font-weight: $weight-lg;
+                    font-family: league Spartan, sans-serif;
+                }
+            }
+            .bp2-mb{
+                width: 350px;
+                height: 80px;
+                // margin-left: 30px;
+                background: $Light-Grayish-Magenta;
+                border-radius: 5px;
+                align-items: 10px;
+                margin-bottom: 15px;
+                padding-left: 80px;
+                // margin-left: 40px;
+                img:first-child{
+                    margin-left: 30px;
+                    margin-top: 10px;
+                }
+                p{
+                    margin-left: 5px;
+                    color: $Very-Dark-Magenta;
+                    font-weight: $weight-lg;
+                    font-family: league Spartan, sans-serif;
+                }
+            }
+            .bp3-mb{
+                width: 350px;
+                height: 80px;
+                // margin-left: 30px;
+                background: $Light-Grayish-Magenta;
+                border-radius: 5px;
+                align-items: 10px;
+                margin-bottom: 15px;
+                padding-left: 80px;
+                // margin-left: 80px;
+                img:first-child{
+                    margin-left: 30px;
+                    margin-top: 10px;
+                }
+                p{
+                    margin-left: 5px;
+                    color: $Very-Dark-Magenta;
+                    font-weight: $weight-lg;
+                    font-family: league Spartan, sans-serif;
+                }
+            }
+        }
+        .global2-mb{
+            width: 900px;
+            height: 400px;
+            // margin-left: 30px;
+            .bloc3-mb{
+                gap: 25px;
+                .box1-mb{
+                    padding: 25px;
+                    width: 350px;
+                    height: 230px;
+                    background: $Very-Dark-Magenta;
+                    border: 1px solid $Very-Dark-Magenta;
+                    border-radius: 5px;
+                    p{
+                        font-weight: $weight-md;
+                        margin-top: 20px;
+                        font-size: 16px;
+                        color: $Light-Grayish-Magenta;
+                        font-family: league Spartan, sans-serif;
+                    }
+                    .title{
+                        display: flex;
+                        margin: 0;
+                        padding: 0;
+                        font-family: league Spartan, sans-serif;
+                        img{
+                            border-radius: 50%;
+                        }
+                        .ecri{
+                            margin-left: 20px;
+                            font-size: 15px;
+                            width: 90px;
+                            height: 15px;
+                            h4{
+                                margin-top: -10px;
+                                color: $White;
+                            }
+                            p{
+                                margin-top: -15px;
+                                color: $Soft-Pink;
+                                font-size: 15px;
+                                font-weight: $weight-md;
+                            }
+                        }
+                    }
+                }
+                .box2-mb{
+                    margin-top: 15px;
+                    padding: 25px;
+                    width: 350px;
+                    height: 230px;
+                    background: $Very-Dark-Magenta;
+                    border: 1px solid $Very-Dark-Magenta;
+                    border-radius: 5px;
+                    p{
+                        font-weight: $weight-md;
+                        font-size: 16px;
+                        margin-top: 20px;
+                        color: $Light-Grayish-Magenta;
+                        font-family: league Spartan, sans-serif;
+                    }
+                    .title2{
+                        display: flex;
+                        margin: 0;
+                        padding: 0;
+                        font-family: league Spartan, sans-serif;
+                        img{
+                            border-radius: 50%;
+                        }
+                        .ecri2{
+                            margin-left: 20px;
+                            font-size: 15px;
+                            width: 90px;
+                            height: 15px;
+                            h4{
+                                margin-top: -10px;
+                                color: $White;
+                            }
+                            p{
+                                margin-top: -18px;
+                                color: $Soft-Pink;
+                                font-size: 15px;
+                                font-weight: $weight-md;
+                            }
+                        }
+                    }
+                }
+                .box3-mb{
+                    margin-top: 15px;
+                    padding: 25px;
+                    width: 350px;
+                    height: 230px;
+                    background: $Very-Dark-Magenta;
+                    border: 1px solid $Very-Dark-Magenta;
+                    border-radius: 5px;
+                    p{
+                        font-weight: $weight-md;
+                        font-size: 16px;
+                        margin-top: 20px;
+                        color: $Light-Grayish-Magenta;
+                        font-family: league Spartan, sans-serif;
+                    }
+                    .title3{
+                        display: flex;
+                        margin: 0;
+                        padding: 0;
+                        font-family: league Spartan, sans-serif;
+                        img{
+                            border-radius: 50%;
+                        }
+                        .ecri3{
+                            margin-left: 20px;
+                            font-size: 15px;
+                            width: 90px;
+                            height: 15px;
+                            h4{
+                                margin-top: -10px;
+                                color: $White;
+                            }
+                            p{
+                                margin-top: -18px;
+                                color: $Soft-Pink;
+                                font-size: 15px;
+                                font-weight: $weight-md;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.attribution{
+    margin-top: 350px;
+    margin-left: -50px;
+}

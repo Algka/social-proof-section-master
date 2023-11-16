@@ -1,0 +1,488 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Merriweather:wght@300;400&family=Overpass:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap");
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+  font-size: 15px;
+}
+@media (max-width: 574px) {
+  body .hide-for-mobile {
+    display: none;
+  }
+}
+@media (min-width: 1000px) {
+  body .hide-for-desktop {
+    display: none;
+  }
+}
+
+.flex {
+  display: flex;
+}
+.flex-jc-c {
+  justify-content: center;
+}
+.flex-ai-c {
+  align-items: center;
+}
+.flex-jc-sb {
+  justify-content: space-between;
+}
+
+.container {
+  margin-right: 90px;
+}
+.container .global {
+  width: 900px;
+  height: 400px;
+  margin-top: 70px;
+}
+.container .global .global1 {
+  display: flex;
+  width: 1154px;
+  height: 272px;
+  margin-bottom: 5px;
+}
+.container .global .global1 .bloc1 {
+  width: 450px;
+  height: 200px;
+}
+.container .global .global1 .bloc1 h1 {
+  font-family: League Spartan, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 40px;
+  color: hsl(300, 43%, 22%);
+}
+.container .global .global1 .bloc1 p {
+  font-family: league Spartan, sans-serif;
+  opacity: 0.5;
+  font-size: 16px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+}
+.container .global .bloc2 {
+  margin-top: 50px;
+}
+.container .global .bloc2 .bp1 {
+  width: 370px;
+  height: 50px;
+  background: hsl(300, 24%, 96%);
+  border-radius: 5px;
+  align-items: 10px;
+  margin-bottom: 15px;
+}
+.container .global .bloc2 .bp1 img:first-child {
+  margin-left: 25px;
+  justify-content: center;
+}
+.container .global .bloc2 .bp1 p {
+  margin-left: 12px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-family: league Spartan, sans-serif;
+}
+.container .global .bloc2 .bp2 {
+  width: 370px;
+  height: 50px;
+  background: hsl(300, 24%, 96%);
+  border-radius: 5px;
+  align-items: 10px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+}
+.container .global .bloc2 .bp2 img:first-child {
+  margin-left: 25px;
+  justify-content: center;
+}
+.container .global .bloc2 .bp2 p {
+  margin-left: 12px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-family: league Spartan, sans-serif;
+}
+.container .global .bloc2 .bp3 {
+  width: 370px;
+  height: 50px;
+  background: hsl(300, 24%, 96%);
+  border-radius: 5px;
+  align-items: 10px;
+  margin-left: 80px;
+}
+.container .global .bloc2 .bp3 img:first-child {
+  margin-left: 25px;
+  justify-content: center;
+}
+.container .global .bloc2 .bp3 p {
+  margin-left: 12px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-family: league Spartan, sans-serif;
+}
+.container .global .global2 {
+  width: 900px;
+  height: 400px;
+}
+.container .global .global2 .bloc3 {
+  gap: 25px;
+}
+.container .global .global2 .bloc3 .box1 {
+  padding: 25px;
+  width: 300px;
+  height: 180px;
+  background: hsl(300, 43%, 22%);
+  border: 1px solid hsl(300, 43%, 22%);
+  border-radius: 5px;
+}
+.container .global .global2 .bloc3 .box1 p {
+  font-weight: 500;
+  margin-top: 20px;
+  font-size: 13px;
+  color: hsl(300, 24%, 96%);
+  font-family: league Spartan, sans-serif;
+}
+.container .global .global2 .bloc3 .box1 .title {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: league Spartan, sans-serif;
+}
+.container .global .global2 .bloc3 .box1 .title img {
+  border-radius: 50%;
+}
+.container .global .global2 .bloc3 .box1 .title .ecri {
+  margin-left: 20px;
+  font-size: 13px;
+  width: 90px;
+  height: 15px;
+}
+.container .global .global2 .bloc3 .box1 .title .ecri h4 {
+  margin-top: -10px;
+  color: hsl(0, 0%, 100%);
+}
+.container .global .global2 .bloc3 .box1 .title .ecri p {
+  margin-top: -15px;
+  color: hsl(333, 80%, 67%);
+  font-size: 12px;
+  font-weight: 500;
+}
+.container .global .global2 .bloc3 .box2 {
+  margin-top: 15px;
+  padding: 25px;
+  width: 300px;
+  height: 180px;
+  background: hsl(300, 43%, 22%);
+  border: 1px solid hsl(300, 43%, 22%);
+  border-radius: 5px;
+}
+.container .global .global2 .bloc3 .box2 p {
+  font-weight: 500;
+  font-size: 13.5px;
+  margin-top: 20px;
+  color: hsl(300, 24%, 96%);
+  font-family: league Spartan, sans-serif;
+}
+.container .global .global2 .bloc3 .box2 .title2 {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: league Spartan, sans-serif;
+}
+.container .global .global2 .bloc3 .box2 .title2 img {
+  border-radius: 50%;
+}
+.container .global .global2 .bloc3 .box2 .title2 .ecri2 {
+  margin-left: 20px;
+  font-size: 13px;
+  width: 90px;
+  height: 15px;
+}
+.container .global .global2 .bloc3 .box2 .title2 .ecri2 h4 {
+  margin-top: -10px;
+  color: hsl(0, 0%, 100%);
+}
+.container .global .global2 .bloc3 .box2 .title2 .ecri2 p {
+  margin-top: -18px;
+  color: hsl(333, 80%, 67%);
+  font-size: 12px;
+  font-weight: 500;
+}
+.container .global .global2 .bloc3 .box3 {
+  margin-top: 30px;
+  padding: 25px;
+  width: 300px;
+  height: 180px;
+  background: hsl(300, 43%, 22%);
+  border: 1px solid hsl(300, 43%, 22%);
+  border-radius: 5px;
+}
+.container .global .global2 .bloc3 .box3 p {
+  font-weight: 500;
+  font-size: 13px;
+  margin-top: 20px;
+  color: hsl(300, 24%, 96%);
+  font-family: league Spartan, sans-serif;
+}
+.container .global .global2 .bloc3 .box3 .title3 {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: league Spartan, sans-serif;
+}
+.container .global .global2 .bloc3 .box3 .title3 img {
+  border-radius: 50%;
+}
+.container .global .global2 .bloc3 .box3 .title3 .ecri3 {
+  margin-left: 20px;
+  font-size: 13px;
+  width: 90px;
+  height: 15px;
+}
+.container .global .global2 .bloc3 .box3 .title3 .ecri3 h4 {
+  margin-top: -10px;
+  color: hsl(0, 0%, 100%);
+}
+.container .global .global2 .bloc3 .box3 .title3 .ecri3 p {
+  margin-top: -18px;
+  color: hsl(333, 80%, 67%);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.container-mb {
+  margin-right: 90px;
+  justify-content: center;
+  display: FLEX;
+}
+.container-mb .global-mb {
+  display: grid;
+  width: 380px;
+  margin-left: 90px;
+  margin-top: 70px;
+}
+.container-mb .global-mb .global1-mb {
+  width: 350px;
+}
+.container-mb .global-mb .global1-mb .bloc1-mb {
+  width: 350px;
+  height: 200px;
+}
+.container-mb .global-mb .global1-mb .bloc1-mb h1 {
+  font-family: League Spartan, sans-serif;
+  font-size: 42px;
+  margin: 0;
+  margin-left: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  color: hsl(300, 43%, 22%);
+}
+.container-mb .global-mb .global1-mb .bloc1-mb p {
+  font-family: league Spartan, sans-serif;
+  opacity: 0.5;
+  font-size: 17.5px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+}
+.container-mb .global-mb .bloc2-mb {
+  margin-top: 50px;
+}
+.container-mb .global-mb .bloc2-mb .bp1-mb {
+  width: 350px;
+  height: 80px;
+  background: hsl(300, 24%, 96%);
+  border-radius: 5px;
+  align-items: 10px;
+  margin-bottom: 15px;
+  padding-left: 80px;
+}
+.container-mb .global-mb .bloc2-mb .bp1-mb img:first-child {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.container-mb .global-mb .bloc2-mb .bp1-mb p {
+  margin-left: 5px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-family: league Spartan, sans-serif;
+}
+.container-mb .global-mb .bloc2-mb .bp2-mb {
+  width: 350px;
+  height: 80px;
+  background: hsl(300, 24%, 96%);
+  border-radius: 5px;
+  align-items: 10px;
+  margin-bottom: 15px;
+  padding-left: 80px;
+}
+.container-mb .global-mb .bloc2-mb .bp2-mb img:first-child {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.container-mb .global-mb .bloc2-mb .bp2-mb p {
+  margin-left: 5px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-family: league Spartan, sans-serif;
+}
+.container-mb .global-mb .bloc2-mb .bp3-mb {
+  width: 350px;
+  height: 80px;
+  background: hsl(300, 24%, 96%);
+  border-radius: 5px;
+  align-items: 10px;
+  margin-bottom: 15px;
+  padding-left: 80px;
+}
+.container-mb .global-mb .bloc2-mb .bp3-mb img:first-child {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.container-mb .global-mb .bloc2-mb .bp3-mb p {
+  margin-left: 5px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-family: league Spartan, sans-serif;
+}
+.container-mb .global-mb .global2-mb {
+  width: 900px;
+  height: 400px;
+}
+.container-mb .global-mb .global2-mb .bloc3-mb {
+  gap: 25px;
+}
+.container-mb .global-mb .global2-mb .bloc3-mb .box1-mb {
+  padding: 25px;
+  width: 350px;
+  height: 230px;
+  background: hsl(300, 43%, 22%);
+  border: 1px solid hsl(300, 43%, 22%);
+  border-radius: 5px;
+}
+.container-mb .global-mb .global2-mb .bloc3-mb .box1-mb p {
+  font-weight: 500;
+  margin-top: 20px;
+  font-size: 16px;
+  color: hsl(300, 24%, 96%);
+  font-family: league Spartan, sans-serif;
+}
+.container-mb .global-mb .global2-mb .bloc3-mb .box1-mb .title {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: league Spartan, sans-serif;
+}
+.container-mb .global-mb .global2-mb .bloc3-mb .box1-mb .title img {
+  border-radius: 50%;
+}
+.container-mb .global-mb .global2-mb .bloc3-mb .box1-mb .title .ecri {
+  margin-left: 20px;
+  font-size: 15px;
+  width: 90px;
+  height: 15px;
+}
+.container-mb .global-mb .global2-mb .bloc3-mb .box1-mb .title .ecri h4 {
+  margin-top: -10px;
+  color: hsl(0, 0%, 100%);
+}
+.container-mb .global-mb .global2-mb .bloc3-mb .box1-mb .title .ecri p {
+  margin-top: -15px;
+  color: hsl(333, 80%, 67%);
+  font-size: 15px;
+  font-weight: 500;
+}
+.container-mb .global-mb .global2-mb .bloc3-mb .box2-mb {
+  margin-top: 15px;
+  padding: 25px;
+  width: 350px;
+  height: 230px;
+  background: hsl(300, 43%, 22%);
+  border: 1px solid hsl(300, 43%, 22%);
+  border-radius: 5px;
+}
+.container-mb .global-mb .global2-mb .bloc3-mb .box2-mb p {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 20px;
+  color: hsl(300, 24%, 96%);
+  font-family: league Spartan, sans-serif;
+}
+.container-mb .global-mb .global2-mb .bloc3-mb .box2-mb .title2 {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: league Spartan, sans-serif;
+}
+.container-mb .global-mb .global2-mb .bloc3-mb .box2-mb .title2 img {
+  border-radius: 50%;
+}
+.container-mb .global-mb .global2-mb .bloc3-mb .box2-mb .title2 .ecri2 {
+  margin-left: 20px;
+  font-size: 15px;
+  width: 90px;
+  height: 15px;
+}
+.container-mb .global-mb .global2-mb .bloc3-mb .box2-mb .title2 .ecri2 h4 {
+  margin-top: -10px;
+  color: hsl(0, 0%, 100%);
+}
+.container-mb .global-mb .global2-mb .bloc3-mb .box2-mb .title2 .ecri2 p {
+  margin-top: -18px;
+  color: hsl(333, 80%, 67%);
+  font-size: 15px;
+  font-weight: 500;
+}
+.container-mb .global-mb .global2-mb .bloc3-mb .box3-mb {
+  margin-top: 15px;
+  padding: 25px;
+  width: 350px;
+  height: 230px;
+  background: hsl(300, 43%, 22%);
+  border: 1px solid hsl(300, 43%, 22%);
+  border-radius: 5px;
+}
+.container-mb .global-mb .global2-mb .bloc3-mb .box3-mb p {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 20px;
+  color: hsl(300, 24%, 96%);
+  font-family: league Spartan, sans-serif;
+}
+.container-mb .global-mb .global2-mb .bloc3-mb .box3-mb .title3 {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: league Spartan, sans-serif;
+}
+.container-mb .global-mb .global2-mb .bloc3-mb .box3-mb .title3 img {
+  border-radius: 50%;
+}
+.container-mb .global-mb .global2-mb .bloc3-mb .box3-mb .title3 .ecri3 {
+  margin-left: 20px;
+  font-size: 15px;
+  width: 90px;
+  height: 15px;
+}
+.container-mb .global-mb .global2-mb .bloc3-mb .box3-mb .title3 .ecri3 h4 {
+  margin-top: -10px;
+  color: hsl(0, 0%, 100%);
+}
+.container-mb .global-mb .global2-mb .bloc3-mb .box3-mb .title3 .ecri3 p {
+  margin-top: -18px;
+  color: hsl(333, 80%, 67%);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.attribution {
+  margin-top: 350px;
+  margin-left: -50px;
+}/*# sourceMappingURL=styles.css.map */
